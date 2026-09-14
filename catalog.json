@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Sunshine",
+    "artist": "Crafted Hertz",
+    "cover": "images/sunshine.webp",
+    "description": "Warm tropical textures and deep house grooves, crafted 100% by human hands.",
+    "spotify": "#",
+    "youtube": "#"
+  },
+  {
+    "title": "Cold Blooded",
+    "artist": "Crafted Hertz",
+    "cover": "images/cold-blooded.webp",
+    "description": "A heavy, driving low-end pulse built for the underground dancefloor.",
+    "spotify": "#",
+    "youtube": "#"
+  },
+  {
+    "title": "In This Galaxy",
+    "artist": "Crafted Hertz",
+    "cover": "images/in-this-galaxy.webp",
+    "description": "Cinematic soundscapes and energetic melodies that bridge the gap between genres.",
+    "spotify": "#",
+    "youtube": "#"
+  }
+]

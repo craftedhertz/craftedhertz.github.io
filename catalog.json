@@ -4,23 +4,23 @@
     "artist": "Crafted Hertz",
     "cover": "images/sunshine.webp",
     "description": "Warm tropical textures and deep house grooves, crafted 100% by human hands.",
-    "spotify": "#",
-    "youtube": "#"
+    "spotify": "https://open.spotify.com/track/5KxfsFjmNMmZ918FzTbemM?si=f0c7a51ad8474791",
+    "youtube": "https://youtu.be/rKrkmxSdFTY?si=QNxFnRhkxiQcO2Dn"
   },
   {
     "title": "Cold Blooded",
     "artist": "Crafted Hertz",
     "cover": "images/cold-blooded.webp",
     "description": "A heavy, driving low-end pulse built for the underground dancefloor.",
-    "spotify": "#",
-    "youtube": "#"
+    "spotify": "https://open.spotify.com/track/72hiGP6Z6imDPoNYeEOE8P?si=92a4a13f9b534a86",
+    "youtube": "https://youtu.be/GSN9OJJOaB4?si=p6KL-cZHTkPNQ6JT"
   },
   {
     "title": "In This Galaxy",
     "artist": "Crafted Hertz",
-    "cover": "images/in-this-galaxy.webp",
+    "cover": "images/in-this-galaxy.jpg",
     "description": "Cinematic soundscapes and energetic melodies that bridge the gap between genres.",
-    "spotify": "#",
-    "youtube": "#"
+    "spotify": "https://open.spotify.com/track/6R1qKF9LayLDyz5T95GHZ6?si=36a50582907449a5",
+    "youtube": "https://youtu.be/5r3NmoHmnQY?si=3C3SN1vCUfY3RRlo"
   }
 ]

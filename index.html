@@ -103,26 +103,25 @@
             <a href="/#technology" class="scroll-indicator nav-link"><div class="mouse-icon"><div class="wheel"></div></div><span class="scroll-text">SCROLL</span></a>
         </header>
 
-        <section class="about-section" id="technology" style="padding: 100px 0;">
+<section class="about-section" id="technology" style="padding: 100px 0; overflow: hidden;">
             <div class="container" style="max-width: 1100px; margin: 0 auto; padding: 0 20px;">
-                <h2 class="about-heading gs-reveal-down" style="margin-bottom: 40px; font-size: 3.5rem; text-transform: uppercase; font-weight: 800; letter-spacing: 2px;">DSP <span style="color: var(--accent);">Architecture</span></h2>
+                <h2 class="about-heading gs-reveal-down" style="margin-bottom: 40px; font-size: clamp(2.2rem, 7vw, 3.5rem); text-transform: uppercase; font-weight: 800; letter-spacing: 2px;">DSP <span style="color: var(--accent);">Architecture</span></h2>
                 
-                <div class="about-top-grid" style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 50px; align-items: center; margin-bottom: 50px;">
-                    <div class="about-img-col gs-reveal-left" style="position: relative; border-radius: 4px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.8);">
+                <div class="about-top-grid" style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 40px; align-items: center; margin-bottom: 50px;">
+                    <div class="about-img-col gs-reveal-left" style="position: relative; border-radius: 0; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.8); border: 1px solid var(--border-solid);">
                         <div style="position: absolute; top: 0; bottom: 0; left: 0; width: 4px; background-color: var(--accent); z-index: 2;"></div>
-                        <!-- IMPORTANT: Replace dsp-architecture.webp with a relevant image (e.g., C++ code, studio gear, or waveforms) -->
                         <img src="images/dsp-architecture.jpg" alt="Crafted Hertz Audio DSP Development" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; filter: contrast(1.1) brightness(0.9);">
-                        <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 30%; background: linear-gradient(to top, rgba(24,24,27,1) 0%, rgba(24,24,27,0) 100%);"></div>
+                        <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 30%; background: linear-gradient(to top, rgba(10,10,12,1) 0%, rgba(10,10,12,0) 100%);"></div>
                     </div>
 
-                    <div class="about-text-col about-text gs-reveal-down delay-1" style="color: var(--text-muted); font-size: 1.1rem; line-height: 1.8;">
+                    <div class="about-text-col about-text gs-reveal-down delay-1" style="color: var(--text-muted); font-size: 1.05rem; line-height: 1.8;">
                         <p>At <strong>Crafted Hertz</strong>, we believe that software instruments shouldn't just emulate the past—they should redefine the future. Built from the ground up using modern C++ and the JUCE framework, our audio engines are designed to provide uncompromising sound quality without wasting your CPU cycles. We develop tools for producers who demand surgical precision and analog warmth in a single interface.</p>
                     </div>
                 </div>
 
-                <div style="width: 100%; height: 1px; background: var(--accent); opacity: 0.6; margin: 50px 0;"></div>
+                <div style="width: 100%; height: 1px; background: var(--accent); opacity: 0.6; margin: 40px 0;"></div>
 
-                <div class="about-text gs-reveal delay-2" style="color: var(--text-muted); font-size: 1.1rem; line-height: 1.8;">
+                <div class="about-text gs-reveal delay-2" style="color: var(--text-muted); font-size: 1.05rem; line-height: 1.8;">
                     <p style="margin-bottom: 25px;">Our core philosophy is centered around strictly optimized Digital Signal Processing. Unlike generic synths that rely on heavy oversampling to mask aliasing, our additive engines calculate up to 320 distinct partials in real-time. This guarantees a mathematically pure waveform generation, delivering a high-end, crystalline top-end that cuts through any mix.</p>
                     
                     <p style="margin-bottom: 25px;">But perfection isn't just about clean math. To achieve that massive, chest-rattling 'fatness' sought after in modern electronic music, we meticulously modeled Zero-Delay Feedback (ZDF) filters, non-linear soft-clipping saturation stages, and intelligent phase randomization algorithms for our unison voices. The result is a sound that hits with the authority of analog hardware, yet offers the limitless control of modern software.</p>

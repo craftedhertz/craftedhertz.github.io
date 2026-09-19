@@ -49,16 +49,37 @@ document.addEventListener("DOMContentLoaded", () => {
     const mTitle = document.getElementById('modalTitle');
     const mArtist = document.getElementById('modalArtist');
     const mDesc = document.getElementById('modalDesc');
-    const mSpot = document.getElementById('modalSpotify');
-    const mYt = document.getElementById('modalYoutube');
+    
+    // Novi elementi za modal
+    const mBuyBtn = document.getElementById('modalBuyBtn');
+    const mBuyText = document.getElementById('modalBuyText');
+    const mDemoBtn = document.getElementById('modalDemoBtn');
+    const mDemoText = document.getElementById('modalDemoText');
 
     function openModal(track) {
         mCover.src = track.cover;
         mTitle.innerText = track.title;
         mArtist.innerText = track.artist;
         mDesc.innerText = track.description;
-        mSpot.href = track.spotify;
-        mYt.href = track.youtube;
+        
+        // Logika za BUY dugme
+        if (track.buy_url && track.buy_url !== "") {
+            if(mBuyBtn) mBuyBtn.style.display = "inline-flex";
+            if(mBuyBtn) mBuyBtn.href = track.buy_url;
+            if(mBuyText) mBuyText.textContent = track.buy_text || "BUY NOW";
+        } else {
+            if(mBuyBtn) mBuyBtn.style.display = "none";
+        }
+
+        // Logika za DEMO dugme
+        if (track.demo_url && track.demo_url !== "") {
+            if(mDemoBtn) mDemoBtn.style.display = "inline-flex";
+            if(mDemoBtn) mDemoBtn.href = track.demo_url;
+            if(mDemoText) mDemoText.textContent = track.demo_text || "TRY DEMO";
+        } else {
+            if(mDemoBtn) mDemoBtn.style.display = "none";
+        }
+
         trackModal.classList.add('active');
     }
 
@@ -83,7 +104,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     const delayClass = index === 1 ? 'delay-1' : index === 2 ? 'delay-2' : '';
                     const card = document.createElement('div');
                     card.className = `release-card gs-reveal ${delayClass}`;
-                    card.innerHTML = `<div class="artwork" style="background-image: url('${track.cover}');"><div class="play-overlay"><span>LISTEN</span></div></div><div class="release-info"><h3>${track.title}</h3><p>${track.artist}</p></div>`;
+                    card.innerHTML = `<div class="artwork" style="background-image: url('${track.cover}');"><div class="play-overlay"><span>VIEW</span></div></div><div class="release-info"><h3>${track.title}</h3><p>${track.artist}</p></div>`;
                     card.addEventListener('click', () => openModal(track));
                     latestContainer.appendChild(card);
                 });
@@ -95,7 +116,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 data.forEach((track) => {
                     const card = document.createElement('div');
                     card.className = `release-card gs-reveal`;
-                    card.innerHTML = `<div class="artwork" style="background-image: url('${track.cover}');"><div class="play-overlay"><span>LISTEN</span></div></div><div class="release-info"><h3>${track.title}</h3><p>${track.artist}</p></div>`;
+                    card.innerHTML = `<div class="artwork" style="background-image: url('${track.cover}');"><div class="play-overlay"><span>VIEW</span></div></div><div class="release-info"><h3>${track.title}</h3><p>${track.artist}</p></div>`;
                     card.addEventListener('click', () => openModal(track));
                     fullContainer.appendChild(card);
                 });

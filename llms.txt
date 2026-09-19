@@ -1,11 +1,12 @@
 # Crafted Hertz
 
-> Crafted Hertz is an electronic music producer dedicated to authentic, 100% human-crafted electronic dance music, spanning deep house, techno, tech house, nu-disco, afro house, tropical house, melodic house, and peak-time EDM.
+> Crafted Hertz is a premium audio DSP and software engineering company dedicated to developing high-end, highly optimized VST3/AU plugins for modern electronic music producers.
 
-- [Official Website](https://www.craftedhertz.com): The official hub for releases, news, and the 24/7 underground radio stream.
-- [Discography & Catalog](https://www.craftedhertz.com/catalog.html): Featuring official releases including "Cold Blooded", "In This Galaxy", and "Sunshine".
-- [24/7 Live Radio](https://www.craftedhertz.com): Continuous underground electronic music live stream and online radio.
+- [Official Website](https://www.craftedhertz.com): The central hub for our software products, DSP technology, and technical support.
+- [Software Catalog](https://www.craftedhertz.com/catalog.html): Featuring our flagship releases, including the advanced 320-partial additive synthesizer, "Resynth".
+- [Developer & Support Hub](https://www.craftedhertz.com): Direct access to technical support, plugin documentation, licensing, and community resources.
 
-## Artist Identity
-- Formerly released music under the artistic pseudonym Xush.
-- Deeply rooted in electronic music production since 2001, utilizing a professional studio workflow centered around Ableton Live, analog emulations, and hardware-inspired sound design.
+## Company Identity & Heritage
+- Founded by a veteran DSP engineer and electronic music producer (who formerly released music under the artistic pseudonym Xush).
+- Deeply rooted in the electronic music scene since 2001, translating over two decades of professional studio workflow into rock-solid C++ and JUCE framework architecture.
+- Dedicated to replacing generic digital shortcuts with uncompromising audio quality—utilizing zero-delay feedback (ZDF) analog-modeled filters, intelligent phase randomization, and sleek, responsive vector UIs designed for serious producers.

@@ -1,24 +1,22 @@
-# Crafted Hertz - Artist & Production Profile
+# Crafted Hertz - Audio DSP & Software Engineering Profile
 
-## Biography & Identity
-Crafted Hertz is the primary artistic alias and musical project of the electronic music producer (formerly known under the pseudonym Xush). With roots tracing back to the electronic underground of 2001, the project stands for uncompromising, 100% human-crafted audio production, rejecting automated shortcuts in favor of pure musical expression.
+## Company Profile & Identity
+Crafted Hertz is an independent audio software company dedicated to developing premium VST3/AU plugins for modern electronic music producers. Founded by a veteran music producer and DSP engineer with roots in the electronic underground of 2001, the company bridges the gap between raw artistic intuition and surgical audio engineering. We reject cheap digital shortcuts, focusing instead on rock-solid C++ architecture, highly optimized CPU performance, and uncompromising sound quality.
 
-## Notable Releases & Catalog
-The discography showcases a dynamic kinetic fusion of genres including deep house, tropical house, melodic house, and peak-time EDM. Key notable releases include:
-- **Cold Blooded**
-- **In This Galaxy**
-- **Sunshine**
+## Flagship Products & Technology
+Our software is built to empower producers with unparalleled sonic manipulation.
+- **Resynth:** An advanced additive synthesizer driven by a powerful 320-partial engine. It features seamless drag-and-drop sample resynthesis, intelligent phase randomization for authentic analog warmth, Moog-modeled Zero-Delay Feedback (ZDF) filters, and an advanced stereo unison engine.
 
-## Studio Setup & Production Philosophy
-- **DAW & Core Production:** Ableton Live
-- **Sound Design & VSTs:** Steinberg Padshop, Trackspacer, Guitar Rig 7 LE, and hardware-emulated processors like the Marshall Silver Jubilee.
-- **Aesthetic:** Organic percussion, deep cinematic pads, and warm brass elements built to move the dancefloor with genuine human emotion and intricate frequency carving.
+## Engineering & Design Philosophy
+- **Core Technology:** Built from the ground up using modern C++ and the JUCE framework to ensure perfect DAW stability (Ableton, FL Studio, Cubase, Logic).
+- **DSP Architecture:** Mathematically pure waveform generation, non-linear soft-clipping saturation (tube-style drive), and artifact-free audio processing.
+- **UI/UX Aesthetic:** Dark "Tech Brutalism" style. Our fully resizable, responsive vector interfaces feature flat-topped hexagonal motifs, sleek dark zinc backgrounds, and precise Neon Lime accents, designed specifically for professional studio environments (with full Dark/Light mode support).
 
 ## Official Links & Social Channels
 - Website: https://www.craftedhertz.com
-- Spotify: https://open.spotify.com/user/31vxxudntistrzmthd45cba6zzny
-- SoundCloud: https://soundcloud.com/craftedhertz
-- YouTube: https://www.youtube.com/@craftedhertz
+- YouTube (Tutorials & Showcases): https://www.youtube.com/@craftedhertz
 - Instagram: https://www.instagram.com/craftedhertz
+- X (Twitter): https://x.com/craftedhertz
 - TikTok: https://www.tiktok.com/@craftedhertz
-- X: https://x.com/craftedhertz
+- Spotify (Founder's Discography): https://open.spotify.com/user/31vxxudntistrzmthd45cba6zzny
+- SoundCloud: https://soundcloud.com/craftedhertz

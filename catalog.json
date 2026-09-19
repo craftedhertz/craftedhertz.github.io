@@ -1,10 +1,12 @@
 [
   {
     "title": "Resynth",
-    "artist": "Crafted Hertz",
+    "artist": "Crafted Hertz DSP",
     "cover": "images/resynth-cover.webp",
     "description": "Flagship 320-partial additive VST3/AU synthesizer with drag-and-drop resynthesis and analog-modeled DSP architecture. Coming Soon.",
-    "spotify": "#",
-    "youtube": "https://www.youtube.com/@craftedhertz"
+    "buy_url": "#",
+    "buy_text": "COMING SOON",
+    "demo_url": "#",
+    "demo_text": "NOTIFY ME"
   }
 ]

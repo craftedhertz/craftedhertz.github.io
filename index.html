@@ -110,7 +110,7 @@
                 <div class="about-top-grid" style="display: grid; grid-template-columns: 1fr 1.2fr; gap: 50px; align-items: center; margin-bottom: 50px;">
                     <div class="about-img-col gs-reveal-left" style="position: relative; border-radius: 4px; overflow: hidden; box-shadow: 0 20px 50px rgba(0,0,0,0.8);">
                         <div style="position: absolute; top: 0; bottom: 0; left: 0; width: 4px; background-color: var(--accent); z-index: 2;"></div>
-                        <!-- IMPORTANT: Replace portrait.webp with an image of your code, a waveform, or a sleek studio gear macro shot -->
+                        <!-- IMPORTANT: Replace dsp-architecture.webp with a relevant image (e.g., C++ code, studio gear, or waveforms) -->
                         <img src="images/dsp-architecture.webp" alt="Crafted Hertz Audio DSP Development" style="width: 100%; aspect-ratio: 1 / 1; object-fit: cover; display: block; filter: contrast(1.1) brightness(0.9);">
                         <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 30%; background: linear-gradient(to top, rgba(24,24,27,1) 0%, rgba(24,24,27,0) 100%);"></div>
                     </div>
@@ -139,7 +139,8 @@
                         <h2 class="outline-text">RESYNTH</h2>
                         <h3 class="overlay-title">Meet Our Flagship</h3>
                     </div>
-                    <a href="https://your-lemonsqueezy-checkout-link.com" target="_blank" class="btn-main nav-link" style="padding: 12px 30px; font-size: 0.85rem;"><span>BUY NOW - $49</span></a>
+                    <!-- Replace this href with your actual Lemon Squeezy link later -->
+                    <a href="#" target="_blank" class="btn-main nav-link" style="padding: 12px 30px; font-size: 0.85rem;"><span>BUY NOW - $49</span></a>
                 </div>
                 
                 <!-- Placeholder for the Synth UI Image -->
@@ -164,6 +165,9 @@
                         <p style="color: var(--text-muted); font-size: 0.95rem;">Dial in massive supersaws with our phase-randomized unison engine, and glue it all together using pre-filter saturation and Moog-modeled Zero-Delay Feedback filters.</p>
                     </div>
                 </div>
+                
+                <!-- This container is dynamically filled from catalog.json via app.js -->
+                <div class="releases-grid" id="latest-releases-container" style="margin-top: 50px;"></div>
             </div>
         </section>
 
@@ -204,6 +208,23 @@
         <div class="cookie-content">
             <p>We use cookies to ensure you get the best experience on our website. You can learn more in our <a href="privacy" class="nav-link" style="color: var(--accent); text-decoration: underline;">Privacy Policy</a> or review our <a href="terms" class="nav-link" style="color: var(--accent); text-decoration: underline;">Terms of Service</a>.</p>
             <button id="acceptCookies" class="btn-main cookie-btn"><span>Accept</span></button>
+        </div>
+    </div>
+    
+    <!-- MODAL (Essential for dynamic catalog rendering) -->
+    <div class="track-modal-overlay" id="trackModal">
+        <div class="track-modal-content">
+            <button class="close-modal" id="closeModal">&times;</button>
+            <img id="modalCover" src="" alt="">
+            <div class="modal-info">
+                <h3 id="modalTitle"></h3>
+                <p id="modalArtist"></p>
+                <p id="modalDesc"></p>
+                <div class="modal-links">
+                    <a id="modalBuyBtn" href="#" target="_blank" class="btn-main modal-btn"><span id="modalBuyText">BUY NOW</span></a>
+                    <a id="modalDemoBtn" href="#" target="_blank" class="btn-main modal-btn" style="background: transparent; border: 1px solid var(--accent); color: var(--accent);"><span id="modalDemoText">TRY DEMO</span></a>
+                </div>
+            </div>
         </div>
     </div>
     

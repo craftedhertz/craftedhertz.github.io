@@ -64,3 +64,9 @@ html{scroll-padding-top:80px}
 .dlrow{display:flex;flex-wrap:wrap;gap:16px;justify-content:center}
 .dlbtn{display:inline-flex;flex-direction:column;align-items:center;gap:4px;min-width:290px;padding:18px 28px;border-radius:14px;background:var(--a);color:#06202b;text-decoration:none;font-weight:800;font-size:17px;box-shadow:0 14px 50px -16px rgba(44,213,255,.6);transition:transform .15s,box-shadow .15s}
 .dlbtn:hover{transform:translateY(-2px);box-shadow:0 18px 60px -12px rgba(44,213,255,.8)}.dlbtn small{font:500 12px "JetBrains Mono",monospace;opacity:.75;letter-spacing:.02em}
+
+footer{padding:56px 0 40px}footer .foot{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:36px;padding-bottom:30px}
+footer .foot b{display:block;color:var(--text);font-weight:700;margin-bottom:10px}footer .foot a{display:block;text-decoration:none;margin:6px 0;color:var(--dim)}footer .foot a:hover{color:var(--text)}
+footer .foot p{margin-top:14px;max-width:18em}footer .foot .brand{display:flex;align-items:center;gap:12px;margin:0;color:var(--text);font-weight:700;font-size:16px}footer .foot .brand svg{width:28px;height:28px}
+footer .copy{display:block;border-top:1px solid var(--line);padding-top:22px;font-size:13.5px}
+@media(max-width:860px){footer .foot{grid-template-columns:1fr 1fr}}
